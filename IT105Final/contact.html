@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="icon" type="image/x-icon" href="../media/images/favicon.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contactstyles.css">
+</head>
+<body>
+    <!--Header with nav-->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="store.html">Store</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Body of html, start of form-->
+    <form action="thankyou.html">
+        <h1 id="heading">Contact Us</h1>
+        <div id="innerForm">
+        <label id="ratingLabels">First Name:</label>
+        <input type="text" id="fname">
+        <br/>
+        <label id="ratingLabels">Last Name:</label>
+        <input type="text" id="lname">
+        <br/>
+        <label id="ratingLabels">Please Rate Your Experience</label>
+        <div id="rating">
+            <input type="radio" id="rate1" name="experience-rating">
+            <label>1(bad)</label>
+            <input type="radio" id="rate2" name="experience-rating">
+            <label>2</label>
+            <input type="radio" id="rate3" name="experience-rating">
+            <label>3</label>
+            <input type="radio" id="rate4" name="experience-rating">
+            <label>4</label>
+            <input type="radio" id="rate5" name="experience-rating">
+            <label>5(best)</label>
+        </div>
+        <br/>
+        <textarea rows="3" cols="40" id="comment" placeholder="Please Enter Your Comment"></textarea>
+        <br/>
+        <div id="buttons">
+        <button type="reset">Clear</button> 
+        <button type="submit">Submit</button>
+        </div>
+        </div>
+    </form>
+    <br/>
+    
+    <footer>
+        <div id="col1">
+            <img src="media/images/facebook.png" alt="Company's Facebook Link" width="50" height="50">
+            <img src="media/images/instagram.png" alt="Company's Instagram Link" width="50" height="50">
+        </div>
+        <div id="col2">
+            <h3>Business Hours</h3>
+            <p>Monday-Thursday: 8:00AM - 7:00PM</p>
+            <p>Friday-Saturday: 8:00AM - 6:30PM</p>
+            <p>Sunday: Closed</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+#historyTitle {
+    text-align: center;
+    font-size: 45pt;
+}
+
+#history {
+    display: flex;
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+}
+
+#historyText {
+    background-color: #64472C;
+    border: 2px solid #EEE4E7;
+}
+
+#slogan {
+    text-align: center;
+}
+
+#info {
+    text-align: center;
+    font-size: 35pt;
+}
+
+table {
+    width:100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgb(0,0,0,0,15);
+}
+
+table th, table td{
+    padding: 12px 15px;
+    border: 4px solid #EEE4E7;
+    font-size: 30px;
+}
+
+table tbody tr td {
+    text-align: center;
+    font-size: 25px;
+}
