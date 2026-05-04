@@ -37,3 +37,7 @@
 #comment {
     font-size: 15px;
 }
+
+footer {
+    bottom: 0;
+}

@@ -6,15 +6,56 @@
 #history {
     display: flex;
     text-align: center;
-    width: 1000px;
     margin-left: auto;
     margin-right: auto;
     flex-direction: column;
+    background-color: #64472C;
+    border-radius: 30px;
 }
 
 #historyText {
     background-color: #64472C;
     border: 2px solid #EEE4E7;
+    font-size: 15pt;
+    margin: 20px;
+}
+
+#missionTitle {
+    text-align: center;
+    font-size: 45pt;
+}
+
+#mission {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    background-color: #64472C;
+    border-radius: 30px;
+}
+
+#missionText {
+    background-color: #64472C;
+    border: 2px solid #EEE4E7;
+    font-size: 15pt;
+    margin: 20px;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1 {
+    background-color: #64472C;
+    display: block;      
+    width: fit-content;  
+    margin: 20px auto;   
+    padding: 10px 20px;  
+    border-radius: 30px;
 }
 
 #slogan {
@@ -44,4 +85,11 @@ table th, table td{
 table tbody tr td {
     text-align: center;
     font-size: 25px;
+}
+
+#sources {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20pt;
 }

@@ -52,7 +52,12 @@ header nav ul li a:active {
 }
 
 h1 {
-    text-align: center;
+    background-color: #64472C;
+    display: block;      
+    width: fit-content;  
+    margin: 20px auto;   
+    padding: 10px 20px;  
+    border-radius: 30px;
     font-size: 60pt;
 }
 

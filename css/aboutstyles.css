@@ -23,3 +23,51 @@ h2 {
 #spiders p{
     text-align: center;
 }
+
+#spiders2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#spiders2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+#spiders2 h3 {
+    text-align: center;
+}
+
+#spiders2 p{
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+#resetButton {
+    background-color: #8b0000; /* Dark red to signal 'stop' or 'clear' */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#resetButton:hover {
+    background-color: #ff0000; /* Brighter red when hovering */
+}
+
+#cart-display {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#cart-display h3 {
+    font-size: 20pt;
+}
