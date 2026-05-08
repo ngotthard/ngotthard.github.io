@@ -41,6 +41,6 @@ woodlouseBtn.addEventListener('click', function() {
 
 resetBtn.addEventListener('click', function() {
     currentTotal = 0;
-    totalSpan.innerText = currentTotal.toFixed(2);
+    totalSpan.innerHTML = currentTotal.toFixed(2);
     alert("Cart has been cleared!");
 });

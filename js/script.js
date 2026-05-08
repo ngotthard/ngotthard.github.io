@@ -5,10 +5,8 @@ const lastName = document.querySelector("#lname");
 
 //functions
 lastName.oninput = function(){
-    if (firstName.value == "Jack"){
-        heading.innerHTML = "Welcome to the site, Jack!";
-    } else if (firstName.value == "Larry"){
-        heading.innerHTML = "You are not Jack!";
+    if (firstName.value == "Elainea"){
+        heading.innerHTML = "Welcome to the site, Professor Neville!";
     } else {
         heading.innerHTML = "We love to hear your feedback!";
     }
